@@ -1,0 +1,112 @@
+body {
+	background-color: #1a1a1a;
+}
+
+.linktree-container {
+	max-width: 500px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.linktree-card {
+	background-color: #292929;
+	border: none;
+	margin-bottom: 50px;
+}
+
+.linktree-card:hover {
+	box-shadow: 0px 0px 10px #7c7e7e0, (0, 0, 0, 0.5);
+}
+
+.linktree-card img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.linktree-card-title {
+	font-size: 20px;
+	color: #fff;
+}
+
+.linktree-card-body {
+	display: flex;
+	align-items: center;
+}
+
+.linktree-card-body a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.linktree-card-body a:hover {
+	color: #a4a7a7;
+	text-decoration: none;
+}
+.jumbotron img {
+	width: 140px;
+	height: 140px;
+}
+
+.jumbotron {
+	padding-top: 7rem;
+	background-color: #a4a03;
+}
+
+.1 img {
+	width: 50px;
+	height: 50px;
+}
+nav a {
+	color: #fff;
+}
+
+.linktree-card:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+
+.linktree-card:hover {
+	box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
+	transform: translate(-5px, -5px) scale(1.1);
+	transition: all 0.3s ease;
+}
+
+6.linktree-card {
+	transition: all 0.3s ease;
+}
+
+.linktree-card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);
+}
+
+.linktree-card:hover .linktree-card-title {
+	color: white;
+}
+
+.linktree-card:hover a {
+	color: white;
+}
+
+.linktree-card:hover img {
+	filter: brightness(0.7);
+}
+
+.linktree-card:active {
+	transform: translateY(0);
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.linktree-card:active .linktree-card-title {
+	color: black;
+}
+
+.linktree-card:active a {
+	color: black;
+}
+
+.linktree-card:active img {
+	filter: brightness(1);
+}
